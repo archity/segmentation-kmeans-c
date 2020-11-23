@@ -242,7 +242,7 @@ int main(int argc, char* argv[])
     //char *ipFilNam;
     //ipFilNam = remove_ext(argv[1], '.', '/');
     //strncat(ipFilNam, "-k%d-i$d", cluster_count, iterations, 32);
-    FILE* ifpWrite = fopen("fileWritten.ppm", "w");
+    FILE* ifpWrite = fopen("pix/fileWritten.ppm", "w");
     
     if(ppmraw)
       fprintf(ifpWrite, "P3\n");
